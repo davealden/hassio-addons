@@ -18,5 +18,6 @@
   "schema": {
   },
   "webui": "http://[HOST]:[PORT:8090]",
-  "hassio_api": true
+  "hassio_api": true,
+  "hassio_role": 'default'
 }

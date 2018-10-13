@@ -7,7 +7,7 @@ For most purposes, the ZWave configuration UI embedded in Home Assistant is just
 
 **IMPORTANT**: OZWCP and Home Assistant cannot both be accessing the ZWave controller and Open ZWave cache at the same time. The add-on will stop Home Assistant before starting OZWCP, but it's up to you to close OZWCP's connection to the ZWave controller before starting Home Assistant again.
 
-1. [Add `https://github.com/jkeljo/hassio-addons` to your Hass.io instance as a repository](https://www.home-assistant.io/hassio/installing_third_party_addons/)
+1. [Add `https://github.com/davealden/hassio-addons` to your Hass.io instance as a repository](https://www.home-assistant.io/hassio/installing_third_party_addons/)
 2. Install the OZWCP addon. This is a local-build addon, so installation can take **a long time** (10 minutes or more). Be patient! :-)
 
 ## Use
